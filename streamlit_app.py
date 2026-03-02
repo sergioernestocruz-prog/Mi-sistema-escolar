@@ -11,7 +11,7 @@ st.subheader("Prof. Sergio Ernesto Cruz - Ciencia y Tecnología")
 
 # CONEXIÓN A GOOGLE SHEETS
 # Reemplaza el link de abajo por el tuyo de Google Sheets
-url ="https://docs.google.com/spreadsheets/d/154rAAUmIVU6nWiTbBJmPRnHqpEP1weZ95GtYlJfzsDk/edit?usp=sharing"
+url =  "https://docs.google.com/spreadsheets/d/154rAAUmIVU6nWiTbBJmPRnHqpEP1weZ95GtYlJfzsDk/edit?usp=sharing"
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
