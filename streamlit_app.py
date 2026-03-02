@@ -11,7 +11,7 @@ st.subheader("Prof. Sergio Ernesto Cruz - Ciencia y Tecnología")
 
 # CONEXIÓN A GOOGLE SHEETS
 # Reemplaza el link de abajo por el tuyo de Google Sheets
-url =  "https://docs.google.com/spreadsheets/d/154rAAUmIVU6nWiTbBJmPRnHqpEP1weZ95GtYlJfzsDk/edit?usp=sharing"
+url = df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/154rAAUmIVU6nWiTbBJmPRnHqpEP1weZ95GtYlJfzsDk/export?format=csv")
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
